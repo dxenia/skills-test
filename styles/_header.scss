@@ -184,7 +184,7 @@
         &__list--item > a {
             font-family: $secondary-font;
             font-weight: 400;
-            font-size: 0.7rem;
+            font-size: 1rem;
             text-transform: uppercase;
             display: contents;
         }
@@ -206,10 +206,8 @@
             display: contents;
         }
 
-        &__list--item {
-            width: 6rem;
+        &__list {
+            gap: 2rem;
         }
     }
-
-
 }
