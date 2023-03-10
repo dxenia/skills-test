@@ -75,11 +75,6 @@ header {
     border: solid 2px #ffffff;
 }
 
-.header_form--btn > a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
 .scroll {
     display: flex;
     flex-direction: column;
@@ -125,16 +120,66 @@ header {
 }
 
 .nav_list--item > a {
-    text-decoration: none;
     font-family: 'Aleo';
     font-weight: 400;
     font-size: 14px;
     line-height: 26px;
     text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
     color: #FFFFFF;
 }
 
 a:hover {
     color: #aaa9a9;
     transition: ease-in-out 0.2s;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/section-one_bkg.png");
+    height: 100vh;
+    gap: 30px;
+}
+
+.section-one_left {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.section_title {
+    font-family: 'Aleo';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;  
+}
+
+.section_text {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    color: #E8E8E8; 
+}
+
+.section-one_btn {
+    width: 228px;
+    height: 63px;
+    background-color: #5473fda7;
+    border: none;
+    font-family: 'Aleo';
+    font-size: 16px;
+    line-height: 26px;  
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
