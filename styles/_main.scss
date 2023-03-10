@@ -181,7 +181,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 200px;
+        height: 300px;
     }
 
     &__card {
@@ -190,8 +190,22 @@
         justify-content: center;
         align-content: center;
         align-items: center;
-        gap: 0;
-        width: 80%;
+        width: 85%;
+        height: 30%;
         margin: auto;
+    }
+
+    &__card--quote {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #333333;
+        padding: 20px;
+    }
+
+    &__icon {
+        color: #5474FD;
+        font-size: 50px;
     }
 }
