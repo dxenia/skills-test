@@ -1,3 +1,53 @@
+.section {
+    &__subtitle {
+        font-family: $main-font;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 1.5px;
+        color: #E8E8E8;
+    }
+
+    &__title {
+        font-family: $secondary-font;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 26px;  
+    }
+
+    &__title--small {
+        font-family: $main-font;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-family: $main-font;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+        color: #E8E8E8; 
+    }
+
+    &__btn {
+        width: 228px;
+        height: 63px;
+        background-color: #5473fda7;
+        border: none;
+        font-family: $secondary-font;
+        font-size: 16px;
+        line-height: 26px;  
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+}
+
 .section-one {
     display: flex;
     flex-direction: row;
@@ -8,7 +58,7 @@
     height: 100vh;
     gap: 5%;
 
-    &_left {
+    &__left {
         width: 560px;
         display: flex;
         flex-direction: column;
@@ -16,45 +66,24 @@
         gap: 40px;
     }
 
-    &_title {
-        font-family: 'Aleo';
-        font-weight: 400;
-        font-size: 36px;
-        line-height: 26px;  
-    }
-
-    &_btn {
-        width: 228px;
-        height: 63px;
-        background-color: #5473fda7;
-        border: none;
-        font-family: 'Aleo';
-        font-size: 16px;
-        line-height: 26px;  
-        letter-spacing: 1.2px;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        margin-top: 30px;
-    }
-
-    &_right {
+    &__right {
         display: flex;
         flex-direction: column;
         gap: 15px;
         width: 440px;
     }
 
-    &_right img {
+    &__right img {
         width: 350px;
     }
 
-    &_right--top {
+    &__right--top {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
     }
 
-    &_right--bottom {
+    &__right--bottom {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -70,18 +99,18 @@
     flex-direction: column;
     justify-content: center;
     
-    &_top {
+    &__top {
         width: 650px;
     }
 
-    &_bottom {
+    &__bottom {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 900px;
     }
 
-    &_bottom--item {
+    &__bottom--item {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -97,15 +126,15 @@
     align-items: center;
     justify-content: center;
 
-    &_container {
-        width: 70%;
+    &__container {
+        width: 80%;
         height: 70%;
         display: flex;
         justify-content: flex-start;
         align-items: flex-end;
     }
 
-    &_card {
+    &__card {
         background-color: #232323dd;
         width: 543px;
         height: 374px;
@@ -117,32 +146,52 @@
     }
 }
 
-.section {
+.section-three {
+    background-image: url("../images/section-three_bkg.png");
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    &_subtitle {
-        font-family: 'Josefin Sans';
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 26px;
-        letter-spacing: 1.5px;
-        color: #E8E8E8;
+    &__container {
+        width: 80%;
+        height: 70%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
     }
 
-    &_title--small {
-        font-family: 'Josefin Sans';
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 26px;
-        text-transform: uppercase;
-        color: #FFFFFF;
+    &__card {
+        background-color: #232323dd;
+        width: 543px;
+        height: 374px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+.section-four {
+    background-image: url("../images/section-four_bkg.png");
+    height: 731px;
+
+    &__heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
     }
 
-    &_text {
-        font-family: 'Josefin Sans';
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        letter-spacing: 1.6px;
-        color: #E8E8E8; 
+    &__card {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        gap: 0;
+        width: 80%;
+        margin: auto;
     }
 }
