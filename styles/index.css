@@ -144,7 +144,7 @@ a:hover {
     align-items: center;
     background-image: url("../images/section-one_bkg.png");
     height: 100vh;
-    gap: 30px;
+    gap: 5%;
 }
 
 .section-one_left {
@@ -183,3 +183,27 @@ a:hover {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+.section-one_right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 440px;
+}
+
+.section-one_right img {
+    width: 350px;
+}
+
+.section-one_right--top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.section-one_right--bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
