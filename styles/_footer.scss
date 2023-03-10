@@ -1,0 +1,19 @@
+.footer {
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 271px;
+
+    &__social-media {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        justify-items: center;
+        gap: 30px;
+    }
+}
